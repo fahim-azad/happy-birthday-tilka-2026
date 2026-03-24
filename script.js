@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const claimBtn = document.getElementById('claim-btn');
     
     // Magic word logic
-    const MAGIC_WORD = 'fahim';
+    const MAGIC_WORD = 'tilka';
     let triggered = false;
 
     claimBtn.addEventListener('click', () => {
