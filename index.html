@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="background-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- <div class="logo-container">
+        <div class="logo-icon">A</div>
+        <span class="logo-text">AzzyNest</span>
+    </div> -->
+
+    <main class="container">
+        <div class="content-wrapper">
+            <h1 class="title">Happy Birthday TILKAMONI</h1>
+
+            <div class="interactive-area" id="interactive-area">
+                <div class="input-wrapper" id="input-wrapper">
+                    <div class="input-container">
+                        <input type="text" id="magic-word-input" autocomplete="off"
+                            placeholder="Enter the magic word...">
+                        <div class="glow-effect"></div>
+                    </div>
+                    <button class="claim-btn" id="claim-btn">Claim Gift</button>
+                </div>
+
+                <div class="prize-card hidden" id="prize-card">
+                    <div class="prize-content">
+                        <span class="prize-icon">🎁</span>
+                        <h2>Unlock Successful!</h2>
+                        <p class="voucher">Collect gift from fahim azad</p>
+                        <p class="message">Wishing you a fantastic year ahead filled with joy and success!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
